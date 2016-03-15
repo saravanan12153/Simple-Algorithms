@@ -10,6 +10,7 @@ slightly, it would reassign 'Thunder' to 'Cats', or even possibly print
 'Thunder Cats', but I'm not reading that from the rhetoric.  My solution will
 use being divisible by 10 to trump being divisible by 5 and print 'Cats' instead
 of 'Thunder'.*/
+
 function eQuestFive(){
   for (var u=1; u<=100; u++){
     if ((u%10)===0){
